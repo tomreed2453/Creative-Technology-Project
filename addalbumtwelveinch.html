@@ -1,0 +1,55 @@
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css" href="collector.css"> 
+    
+   <!--google font links-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300|Raleway:400,800,900' rel='stylesheet' type='text/css'>
+      
+
+      <title> CD / collector.com </title> 
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  </head>
+<header>
+
+<div class="pageheaders">
+
+         <nav class="navmenu">
+        <ul>
+          <li><a href="">Logout</a></li>
+        </ul>  
+       </nav>  
+
+                     <a href="mainscreen.html">
+           <img class="logo" src="img/logowhite.png"> 
+          </a>      
+    </div>
+</header>
+<body>
+    <div id="addalbummain">
+          <p class="pagenames"> Twelve Inch </p>
+	  
+<form action="inserttwelveinch.php" method="post">
+<p><label for="artist">Artist</label> <input type="text" name="artist" /></p>
+<p><label for="title">Title</label><input type="text" name="title" /></p>
+<p><label for="year">Year</label><input type="text" name="year" /></p>
+<p><label for="genre">Genre</label><input type="text" name="genre" /></p><br>
+<p><label for="recordlabel">Record Label</label><input type="text" name="recordlabel" /></p><br>
+<p><label for="cover">
+<a href="#" class="tooltip">
+    Album Cover Link
+    <span>
+        <img class="callout" src="img/callout.gif" />
+        <strong>Instructions</strong><br />
+        Find the .jpg web link for the image you're after, paste the link into the box.
+    </span>
+</a>
+
+  </label><input type="text" name="cover" /></p><br>
+  <p><label for="pressing">Pressing</label><input type="text" name="pressing" /></p><br>
+  <p><label for="colour">Colour</label><input type="text" name="colour" /></p><br>
+<input class="button" type="submit" />
+</form>
+
+</div>
+</body>
+</html>
